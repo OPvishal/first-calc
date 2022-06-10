@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react'
+import ojasva1 from './assets/profile_image2.png'
+import Calc from './Calc'
+import {Abc} from './Calc'
 
 function App() {
+
+  // var [parent_value,setParent]=useState("Parent1")
+  // var [abc,setAbc]=useState(1)
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Calc />
     </div>
   );
 }
 
 export default App;
+
+      
