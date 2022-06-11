@@ -1,0 +1,48 @@
+.cstm_btns_container{
+    display: flex;
+    justify-content: space-between;
+    background:#5f6368;
+    width: 27.92%;
+    border-radius: 4px;
+    align-items: center;
+}
+.cstm_btns{
+    width:48%;
+    height:5vh;
+    background: inherit;
+    border-radius:4px;
+    height:6vh;
+    border:0;
+    border-radius: 4px;
+    color: #fff;
+}
+.cstm_btns:hover{
+    background:#bdc1c6;
+}
+.btns_rows{
+    display:flex;
+    height:19%;
+    width: "100%";
+    justify-content:space-between;
+    margin-bottom:7px;
+}
+
+.regular_btns{
+    width:13.5%;
+    height:5vh;
+    background:#5f6368;
+    border-radius:4px;
+    height:6vh;
+    border:0;
+    color: #fff;
+
+}
+
+.regular_btns:hover
+{
+    background:#bdc1c6;
+}
+
+
+
+
