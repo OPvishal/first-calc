@@ -1,0 +1,11 @@
+.li{
+    display: inline;
+    background-color: inherit;
+    padding: 5px 15px 5px 15px;
+    border-radius: 8px;
+    color: rgb(37, 3, 3);
+}
+
+.li:hover{
+    background-color: rgb(19, 226, 226);
+}
