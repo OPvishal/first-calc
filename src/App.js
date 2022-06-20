@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react'
 import ojasva1 from './assets/profile_image2.png'
 import Calc from './Calc'
 import {Abc} from './Calc'
+import Nav from './Nav'
+import Abt from './About'
 
 function App() {
 
@@ -11,7 +13,7 @@ function App() {
 
   return (
     <div>
-      <Calc />
+      <Abt />
     </div>
   );
 }
