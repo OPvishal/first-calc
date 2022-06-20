@@ -3,7 +3,7 @@ import ojasva1 from './assets/profile_image2.png'
 import Calc from './Calc'
 import {Abc} from './Calc'
 import Nav from './Nav'
-import Abt from './About'
+import Abt from './modules/About'
 
 function App() {
 
@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div>
-      <Abt />
+      <Calc/>
     </div>
   );
 }

@@ -5,7 +5,7 @@ export default class Abt extends Component {
   render() {
     return (
         <>
-          <div style={{border:"1px solid red"}}>
+          {/* <div style={{border:"1px solid red"}}>
             <ul style={{listStyle:"none",display:"flex",justifyContent:"space-evenly",height:"7vh",minHeight:"35px",background:"cyan",alignItems:"center",fontWeight:"bold",marginTop:0}}>
               <li className='li'>Dashboard</li>
               <li className='li'>About</li>
@@ -14,7 +14,7 @@ export default class Abt extends Component {
               <li className='li'>Extra</li>
               <li className='li'>Support</li>
            </ul>
-          </div>
+          </div> */}
 
           <div id = "MainBody" style = {{display:"flex"}}>
             <div id = "Content" style = {{width:"75%"}}>
@@ -32,16 +32,6 @@ Sit amet consectetur adipiscing elit. Nulla pellentesque dignissim enim sit amet
 
 Erat velit scelerisque in dictum non consectetur a erat. Etiam dignissim diam quis enim lobortis. Leo a diam sollicitudin tempor id. Tristique senectus et netus et malesuada. At volutpat diam ut venenatis tellus. Magna sit amet purus gravida quis blandit turpis cursus. Volutpat ac tincidunt vitae semper quis lectus nulla at. Nisi est sit amet facilisis magna. Sagittis aliquam malesuada bibendum arcu vitae. Scelerisque eleifend donec pretium vulputate sapien.
                 </div>
-            </div>
-            <div id = "Sidebar" style = {{width:"25%"}}>
-                <ul style={{listStyle:"none",display:"flex",alignItems:"space-evenly",justifyContent:"center",fontWeight:"bold"}}>
-                    <li className='li'>Dashboard</li>
-                    <li className='li'>About</li>
-                    <li className='li'>Bio</li>
-                    <li className='li'>Mission</li>
-                    <li className='li'>Extra</li>
-                    <li className='li'>Support</li>
-                </ul>
             </div>
           </div>
         

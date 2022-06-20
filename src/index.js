@@ -4,12 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Nav from './Nav';
+import Abt from './modules/About'
+import Routss from './Routes'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <Nav />
+    {/* <App /> for calc only */}
+    <Routss />
   </React.StrictMode>
 );
 
