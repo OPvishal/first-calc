@@ -4,6 +4,8 @@ import Nav from '../Nav'
 import Abt from '../modules/About'
 import Mission from '../modules/Mission'
 import Bio from '../modules/Bio'
+import Ext from '../modules/Extra'
+import Sup from '../modules/Support'
 
 export default function Routss() {
   return (
@@ -14,6 +16,8 @@ export default function Routss() {
                 <Route path="/" element={<Abt/>} />
                 <Route path="/mission" element={<Mission/>} />
                 <Route path="/bio" element={<Bio/>} />
+                <Route path="/extra" element={<Ext/>} />
+                <Route path="/support" element={<Sup/>} />
             </Routes>
         </BrowserRouter>
     </div>
